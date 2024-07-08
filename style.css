@@ -1,3 +1,7 @@
+body{
+    display:contents;
+}
+
 .navbar{
     float: right;
     /*border:1px solid red;*/
@@ -12,4 +16,54 @@
 
 .nav-item:hover{
     text-decoration: underline;
+}
+
+
+.main{
+    margin: top 300px;
+    text-align: center;
+}
+
+
+.input-area{
+    margin-top:  2px;
+}
+
+.input-box{
+    width:584px;
+    height:40px;
+    border-radius: 24px;
+    border: 1px solid cornflowerblue;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.search-icon{
+    position:relative;
+    left: 40px;
+}
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+}
+
+.botton-area{
+    padding-top:25px;
+}
+
+.botton-style{
+    height:36px;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, Apple SD Gothic Neo, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
+}
+
+.botton-style:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
