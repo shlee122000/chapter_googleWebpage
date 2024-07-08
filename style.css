@@ -1,0 +1,15 @@
+.navbar{
+    float: right;
+    /*border:1px solid red;*/
+    margin:20px;
+}
+
+.nav-item{
+    text-decoration: none ;
+    color:black;
+    margin-right: 15px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
